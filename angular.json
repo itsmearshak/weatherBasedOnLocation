@@ -30,7 +30,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/font-awesome/css/font-awesome.css",
+              "node_modules/weather-icons/css/weather-icons.css"
             ],
             "scripts": []
           },
@@ -93,12 +95,17 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/font-awesome/css/font-awesome.css",
+              "node_modules/weather-icons/css/weather-icons.css"
             ],
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "4956557a-a45d-46c7-9268-55b266848f63"
   }
 }

@@ -1,0 +1,50 @@
+.page{
+    width: 100%;
+    height: 100vh;
+
+margin:auto;
+    .weather-container{
+     left: calc(50% - 250px);
+     top: calc(50vh - 225px);
+  position: relative;
+        width:500px ;
+        height: 430px;
+        border-radius: 10px;
+        align-content: center;
+        
+        
+        .weatherIcon{
+            color: white;
+         
+           font-size: 150px;
+           top: 50px;
+           margin-bottom: 30px;
+           left: calc(50% - 75px);
+           position: relative;
+           
+        }
+        h4{
+margin-top: 30px;
+font-size: 104px;
+padding-left: 126px;
+
+color: white;
+
+position: relative;
+
+        }
+     .cities{
+        padding: 5px;
+        margin: 10px;
+        width: calc(100% - 20px);
+     }
+    }
+    .weather-specs{
+        background-image: linear-gradient(red ,yellow);
+       
+     
+        
+      
+
+    }
+}
